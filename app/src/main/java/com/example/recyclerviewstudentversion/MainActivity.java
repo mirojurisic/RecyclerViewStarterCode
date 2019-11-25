@@ -1,17 +1,21 @@
 package com.example.recyclerviewstudentversion;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
 import java.util.List;
 // Todo create a player class that will hold info about the player
-public class MainActivity extends AppCompatActivity {
+public class MainActivity<RecyclerView> extends AppCompatActivity {
     // Todo initialize these variables
     private RecyclerView recyclerView;
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager layoutManager;
     List<Player> list;
+
+    public MainActivity() {
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
