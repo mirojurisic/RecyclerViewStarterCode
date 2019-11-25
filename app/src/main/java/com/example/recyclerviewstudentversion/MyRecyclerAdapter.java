@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.List;
+
 // Todo Implement methods required
 //onCreateViewHolder()
 //onBindViewHolder
@@ -40,8 +42,14 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.My
         // Todo implement constructor
         private MyViewHolder(@NonNull View itemView)
         {
-            
+
         }
+    }
+
+    // Todo Create the MyRecyclerAdapter class initializer and put the list into a variable.
+    public MyRecyclerAdapter(List list)
+    {
+
     }
 
 }
