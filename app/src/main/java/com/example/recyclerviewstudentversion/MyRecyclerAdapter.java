@@ -4,6 +4,7 @@ package com.example.recyclerviewstudentversion;
 import android.view.View;
 
 import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
 // Todo Implement methods required
 //onCreateViewHolder()
