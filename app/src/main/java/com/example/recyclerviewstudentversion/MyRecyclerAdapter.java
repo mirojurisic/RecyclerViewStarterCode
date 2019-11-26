@@ -1,8 +1,10 @@
 package com.example.recyclerviewstudentversion;
 
 
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -18,13 +20,18 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.My
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType)
     {
-        return null;
+        View v = LayoutInflater.from(parent.getContext())
+                .inflate(R.layout.single_player_view, parent, false);
+
+        //Im gonna send my view group to my view holder
+        MyViewHolder vh = new MyViewHolder(v);
+        return vh;
     }
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position)
     {
-
+    holder.
     }
 
     @Override
