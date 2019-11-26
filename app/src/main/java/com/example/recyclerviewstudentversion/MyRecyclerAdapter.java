@@ -15,7 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 //getItemCount
 public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.MyViewHolder>
 {
-
+private
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType)
