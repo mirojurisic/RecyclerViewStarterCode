@@ -9,6 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.List;
+
 // Todo Implement methods required
 //onCreateViewHolder()
 //onBindViewHolder
@@ -47,8 +49,14 @@ private
         // Todo implement constructor
         private MyViewHolder(@NonNull View itemView)
         {
-            
+
         }
+    }
+
+    // Todo Create the MyRecyclerAdapter class initializer and put the list into a variable.
+    public MyRecyclerAdapter(List list)
+    {
+
     }
 
 }
