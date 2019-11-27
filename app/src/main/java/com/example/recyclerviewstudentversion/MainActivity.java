@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     private List getPlayers()
     {
-        List<Player> list = Arrays.asList(new Player[]{
+      list = Arrays.asList(new Player[]{
                 new Player("Lionel Messi",32,44224400.00,"football",R.drawable.mesi),
                 new Player("David Robert Joseph Beckham",44,1291800.00,"football",R.drawable.beckham),
                 new Player("Hanyu Yuzulu",24,500000,"figure skating",R.drawable.hanyu),
